@@ -68,6 +68,7 @@ export function Card({
     >
       <AnimatePresence>
         <button
+          id={id}
           onClick={handleSelect}
           className={checkboxStyle({ selected: isSelected })}
         >

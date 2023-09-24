@@ -9,6 +9,7 @@ export const Search = React.forwardRef<
     <div className="py-4 relative">
       <input
         type="text"
+        autoFocus
         ref={ref}
         placeholder="Search"
         className="px-12 py-3 rounded-xl shadow-sm w-full text-neutral-600 active:border-none focus:border-none focus-visible:border-none"

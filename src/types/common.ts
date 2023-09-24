@@ -18,3 +18,5 @@ export type Pagination = {
   limit: number;
   count: number;
 };
+
+export type MoodListItem = Pick<Mood, 'id'| 'title'| 'emoji' | 'description'>;
